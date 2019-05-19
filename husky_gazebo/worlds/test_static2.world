@@ -1,0 +1,45 @@
+<?xml version="1.0" ?>
+<sdf version="1.4">
+  <world name="default">
+    <!-- A global light source -->
+    <include>
+      <uri>model://sun</uri>
+    </include>
+    <!-- A ground plane -->
+    <include>
+      <uri>model://ground_plane</uri>
+    </include>
+    <!-- The Willow Garaga offices -->
+    <!--<include>
+      <uri>model://willowgarage</uri>
+    </include> -->
+    <include>
+	<uri>model://construction_barrel</uri>
+	<pose frame=''>0.48 2.3 0 0 -0 0</pose>
+    </include>
+    <include>
+	<uri>model://cube_20k</uri>
+	<pose frame=''>1.5 3 0 0 -0 0</pose>
+    </include>
+    <include>
+	<uri>model://cube_20k</uri>
+	<pose frame=''>2.5 3 0 0 -0 0</pose>
+    </include>
+    <include>
+	<uri>model://cube_20k</uri>
+	<pose frame=''>3.5 3 0 0 -0 0</pose>
+    </include>
+    <include>
+	<uri>model://cube_20k</uri>
+	<pose frame=''>3.5 2 0 0 -0 0</pose>
+    </include>
+    <include>
+	<uri>model://cube_20k</uri>
+	<pose frame=''>3.5 1 0 0 -0 0</pose>
+    </include>
+    <include>
+	<uri>model://cube_20k</uri>
+	<pose frame=''>4.5 1 0 0 -0 0</pose>
+    </include>
+  </world>
+</sdf>
